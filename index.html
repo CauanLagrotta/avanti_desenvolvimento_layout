@@ -12,15 +12,68 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/assets/styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/dc5beedd3a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="desconto-div">
         <p>
           Ganhe <span class="destaque-desconto">R$ 10,00</span> de desconto no
           seu primeiro pedido. Utilize o cupom
           <span class="desconto-cupom">DESCONTO10</span>
         </p>
+      </div>
+
+      <div class="navbar-items">
+        <div class="navbar-busca">
+          <div class="container-logo-busca">
+            <img src="./assets/images/logo.png" alt="" />
+
+            <div class="container-busca">
+              <input
+                id="input-busca"
+                type="text"
+                placeholder="Digite o que você procura"
+              />
+              <i class="fa-solid fa-magnifying-glass" id="icon-busca"></i>
+            </div>
+          </div>
+
+          <div class="container-user-cart">
+            <div class="container-user">
+              <i class="fa-regular fa-user" id="icon-user"></i>
+              <div class="container-saudacao">
+                <p>Olá,</p>
+                <p>Cauan</p>
+              </div>
+            </div>
+
+            <i class="fa-solid fa-cart-shopping" id="icon-cart">
+              <span class="cart-quantity">2</span>
+            </i>
+          </div>
+        </div>
+
+        <div class="navbar-links">
+          <div class="container-todas-categorias">
+            <i class="fa-solid fa-bars" id="icon-menu"></i>
+            <p class="todas-categorias">Todas as categorias</p>
+          </div>
+
+          <nav class="container-departamentos">
+            <a href="#" class="link-departamento">Departamento</a>
+            <a href="#" class="link-departamento">Departamento</a>
+            <a href="#" class="link-departamento">Departamento</a>
+            <a href="#" class="link-departamento">Departamento</a>
+            <a href="#" class="link-departamento">Departamento</a>
+            <a href="#" class="link-departamento">Departamento</a>
+            <a href="#" class="link-departamento">Departamento</a>
+            <a href="#" class="link-departamento">Departamento</a>
+          </nav>
+        </div>
       </div>
     </header>
   </body>
