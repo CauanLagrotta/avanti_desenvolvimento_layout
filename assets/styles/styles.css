@@ -419,3 +419,24 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.avanti-banner{
+  background: url("../images/contato_banner.png");
+  background-size: cover;
+  height: 660px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.text-avanti-banner {
+  font-size: 2rem;
+  background: var(--blue-600);
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 200;
+  color: var(--white-100);
+}
