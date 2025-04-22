@@ -396,7 +396,7 @@ body {
   margin-left: 3rem;
 }
 
-.banner-local-descricao{
+.banner-local-descricao {
   color: var(--gray-700);
 }
 
@@ -420,7 +420,7 @@ body {
   align-items: center;
 }
 
-.avanti-banner{
+.avanti-banner {
   background: url("../images/contato_banner.png");
   background-size: cover;
   height: 660px;
@@ -508,7 +508,7 @@ body {
   transform: rotate(45deg);
 }
 
-.checkbox-container{
+.checkbox-container {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -523,7 +523,7 @@ body {
   color: var(--gray-700);
 }
 
-.form-newsletter-button{
+.form-newsletter-button {
   padding: 1rem;
   background: var(--blue-600);
   color: var(--white-100);
@@ -531,4 +531,67 @@ body {
   border: none;
   cursor: pointer;
   font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  margin-top: 5rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+
+.first-column {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footer-icons{
+  color: var(--blue-600);
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+
+.second-column h5, .third-column h5, .fourth-column h5 {
+  color: var(--gray-700);
+  padding-top: 1rem;
+}
+
+.payment-methods {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.text-footer{
+  font-size: 0.8rem;
+  color: var(--gray-700);
+  text-align: center;
+  width: 90%;
+}
+
+.partners-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.partners{
+  height: 10px;
+  width: 57px;
 }
